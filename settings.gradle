@@ -1,0 +1,5 @@
+rootProject.name = 'gestor-rh'
+
+include 'user-service'
+include 'epi-service'
+
