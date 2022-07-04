@@ -12,4 +12,11 @@ public class UserMapper {
                 .status(userResource.getStatus())
                 .build();
     }
+    public static UserResource mapDomainToResource(User user){
+        return UserResource.builder()
+                .name(user.getName())
+                .document(user.getDocument())
+                .status(user.getStatus())
+                .build();
+    }
 }
